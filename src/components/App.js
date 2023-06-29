@@ -19,12 +19,7 @@ const App = () => {
         id="like-btn-img"
         src={like}
         alt="Like"
-        
-        style={{
-          fill: "white",
-          width: "100px",
-          backgroundColor: "rgba(255,0,0,0)",
-        }}
+        style={{fill:"white",width: "100px",backgroundColor: backgroundColor}}
         onClick={handleLike}
       />
       <h3>
